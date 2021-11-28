@@ -24,7 +24,7 @@ ITEM_PIPELINES = {
  'news_scrapy.pipelines.NewsElasticPipeline':300
 }
 
-ES_HOST = '10.10.23.105'
+ES_HOST = 'localhost'
 ES_PORT = '9200'
 ES_INDEX = "index_news"
 ES_TYPE = "detik"
